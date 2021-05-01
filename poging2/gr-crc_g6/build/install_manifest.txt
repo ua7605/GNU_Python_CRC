@@ -1,0 +1,9 @@
+/usr/local/lib/cmake/crc_g6/crc_g6Config.cmake
+/usr/local/include/crc_g6/api.h
+/usr/local/lib/python2.7/dist-packages/crc_g6/__init__.py
+/usr/local/lib/python2.7/dist-packages/crc_g6/crc_g6_py.py
+/usr/local/lib/python2.7/dist-packages/crc_g6/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/crc_g6/crc_g6_py.pyc
+/usr/local/lib/python2.7/dist-packages/crc_g6/__init__.pyo
+/usr/local/lib/python2.7/dist-packages/crc_g6/crc_g6_py.pyo
+/usr/local/share/gnuradio/grc/blocks/crc_g6_crc_g6_py.xml

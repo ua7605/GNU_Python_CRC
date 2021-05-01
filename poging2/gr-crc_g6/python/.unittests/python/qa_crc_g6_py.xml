@@ -1,0 +1,31 @@
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="0.007">
+  <testcase classname="__main__.qa_crc_g6_py" name="test_001_t" time="0.0071">
+    <failure type="exceptions.AssertionError">Tuples differ: (49, 50, 51, 52, 53, 54, 55, 5... != (49, 50, 51, 52, 53, 54, 168, ...
+
+First differing element 6:
+55
+168
+
+First tuple contains 3 additional elements.
+First extra element 8:
+57
+
+- (49, 50, 51, 52, 53, 54, 55, 56, 57, 41, 177)
++ (49, 50, 51, 52, 53, 54, 168, 116)
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "qa_crc_g6_py.py", line 47, in test_001_t
+    self.assertEqual(out, result)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 754, in assertTupleEqual
+    self.assertSequenceEqual(tuple1, tuple2, msg, seq_type=tuple)
+  File "/usr/lib/python2.7/unittest/case.py", line 725, in assertSequenceEqual
+    self.fail(msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 410, in fail
+    raise self.failureException(msg)
+    </failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

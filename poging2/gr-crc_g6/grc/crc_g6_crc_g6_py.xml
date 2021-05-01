@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<block>
+  <name>crc_g6_py</name>
+  <key>crc_g6_crc_g6_py</key>
+  <category>[crc_g6]</category>
+  <import>import crc_g6</import>
+  <make>crc_g6.crc_g6_py()</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>...</name>
+    <key>...</key>
+    <type>...</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
